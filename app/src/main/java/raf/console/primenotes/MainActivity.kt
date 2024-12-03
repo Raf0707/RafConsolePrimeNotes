@@ -1,4 +1,4 @@
-package raf.console.rafconsolenotes
+package raf.console.primenotes
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import raf.console.rafconsolenotes.ui.theme.RafConsoleNotesTheme
+import raf.console.primenotes.ui.theme.RafConsoleNotesTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

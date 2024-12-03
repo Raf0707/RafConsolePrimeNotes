@@ -1,4 +1,4 @@
-package raf.console.rafconsolenotes
+package raf.console.primenotes
 
 import org.junit.Test
 

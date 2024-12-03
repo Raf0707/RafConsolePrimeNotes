@@ -1,4 +1,4 @@
-package raf.console.rafconsolenotes.ui.theme
+package raf.console.primenotes.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
