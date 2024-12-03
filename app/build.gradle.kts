@@ -50,6 +50,11 @@ dependencies {
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
+    //Code
+    implementation("io.github.tiagohm:CodeView:1.2.0")
+    implementation("io.noties.markwon:core:4.6.2")
+    implementation("io.noties.markwon:syntax-highlight:4.6.2")
+
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.2")
