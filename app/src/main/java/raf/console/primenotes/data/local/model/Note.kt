@@ -3,7 +3,7 @@ package raf.console.primenotes.data.local.model
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.sql.Date
+import java.util.Date
 
 @Entity(tableName = "notes")
 data class Note(

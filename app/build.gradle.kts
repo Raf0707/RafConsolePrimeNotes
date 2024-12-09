@@ -39,6 +39,9 @@ android {
     buildFeatures {
         compose = true
     }
+    kapt {
+        correctErrorTypes = true
+    }
 }
 
 dependencies {
@@ -51,7 +54,7 @@ dependencies {
     androidTestImplementation(composeBom)
 
     //Code
-    implementation("io.github.tiagohm:CodeView:1.2.0")
+    //implementation("io.github.tiagohm:CodeView:1.2.0")
     implementation("io.noties.markwon:core:4.6.2")
     implementation("io.noties.markwon:syntax-highlight:4.6.2")
 
@@ -62,6 +65,9 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3:1.2.0")
+
+    //implementation("androidx.room:room-runtime:2.5.0")
+    //kapt("androidx.room:room-compiler:2.5.0")
 
     implementation("com.google.code.gson:gson:2.11.0")
 
@@ -87,7 +93,7 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:2.44")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 
-    val roomVersion = "2.5.1"
+    val roomVersion = "2.5.0"
     implementation("androidx.room:room-runtime:$roomVersion")
     implementation("androidx.room:room-ktx:$roomVersion")
     kapt("androidx.room:room-compiler:$roomVersion")
